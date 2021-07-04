@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px dashed black; */
+}
+
+body {
+    background-color: #9AA6CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+}
+
+.card{
+    width: 693px;
+    height: 794px;
+    background-color: #ffffff;
+    box-shadow: 0px 34px 44px rgba(160, 181, 255, 0.28);
+    border-radius: 10px;
+    margin: 100px auto
+}
+
+h1 {
+    width: 256px;
+    height: 66px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    margin: 70px auto 50px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    margin: 0 0 10px 52px;
+}
+
+.info-1 > p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 0 40px 52px;
+}
+
+ .info-2 {
+    width: 591px;
+    height: 216px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+label {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0 0 5px 0;
+}
+
+input{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 26px 0 26px 25px;
+}
+
+.data-1{
+    width: 591px;
+    height: 98px;
+}
+
+.data-1 > input {
+    width: 591px;
+    height: 74px;
+    border: 1px solid #CED5EC;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.data-1 > input:hover {
+    border: 1px solid #5F82FF;
+}
+
+.data-1 > input:focus {
+    all: unset;
+    width: 591px;
+    height: 74px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 3px solid #5F82FF;
+    padding: 26px 0 26px 25px;
+}
+ 
+.data-2, .data-3{
+    width: 288px;
+    height: 98px;
+}
+
+.data-2 > input, .data-3 > input {
+    width: 288px;
+    height: 74px;
+    border: 1px solid #CED5EC;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.data-2 > input:hover, .data-3 > input:hover {
+    border: 1px solid #5F82FF;
+}
+
+.data-2 > input:focus, .data-3 > input:focus {
+    all: unset;
+    border: 3px solid #5F82FF;
+    width: 288px;
+    height: 74px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 26px 0 26px 25px;
+}
+
+.info-2 input::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.card > p {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    width: 533px;
+    height: 48px;
+    margin: 50px auto 27px;
+}
+
+button {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #5F82FF;
+    border-radius: 5px;
+    padding: 45px 256px;
+    margin: 0 50px;
+    border: 1px solid #fff;
+}
+
+button:hover{
+    background-color: #093DF3;
+    box-shadow: 0px 7px 24px rgba(9, 61, 243, 0.3);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(255,255,255);
+    color: #093DF3;
+    border: 2px solid #093DF3;
+}
