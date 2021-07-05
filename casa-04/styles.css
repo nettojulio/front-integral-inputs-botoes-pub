@@ -9,7 +9,6 @@
     background-color: #1F1C44;
     display: flex;
     justify-content: center;
-    height: 100vh;
 }
 
 .card {
@@ -20,6 +19,7 @@
     height: 765px;
     background-color: #ffffff;
     border-radius: 10px;
+    margin: 100px auto
 }
 
 button {
